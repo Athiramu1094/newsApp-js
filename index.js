@@ -2,7 +2,7 @@ const myNewsCard = document.getElementById('news')
 const myNewsPara = document.getElementById('card-text')
 
 async function newsArticles() {
-    try{ const response = await fetch(`https://gnews.io/api/v4/search?q=example&lang=en&country=in&max=10&apikey=63635babfcffd0b0261f8cb2b1078180`)
+    try{ const response = await fetch(`https://gnews.io/api/v4/search?q=example&lang=en&country=in&max=10&apikey=f0c356bcfefb7f2d8cfef128e4e232dd`)
     const data = await response.json()
     console.log(data)
 
